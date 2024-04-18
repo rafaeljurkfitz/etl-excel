@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "project-etl-excel"
+version = "0.1.0"
+description = "A simple project of a etl for excel files"
+authors = ["Rafael Jürkfitz <rafaeljurkfitz@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.1"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
