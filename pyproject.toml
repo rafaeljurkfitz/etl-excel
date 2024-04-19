@@ -13,6 +13,7 @@ openpyxl = "^3.1.2"
 pytest = "^8.1.1"
 blue = "^0.9.1"
 isort = "^5.13.2"
+taskipy = "^1.12.2"
 
 
 [build-system]
@@ -22,3 +23,8 @@ build-backend = "poetry.core.masonry.api"
 [tool.isort]
 profile = "blue"
 known_third_party = []
+
+[tool.taskipy.tasks]
+test = "pytest -v"
+lint = "flake8 src/ tests/"
+format = "blue . && isort ."
