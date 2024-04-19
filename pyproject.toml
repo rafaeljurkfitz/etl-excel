@@ -14,6 +14,12 @@ pytest = "^8.1.1"
 blue = "^0.9.1"
 isort = "^5.13.2"
 taskipy = "^1.12.2"
+mkdocs = "^1.5.3"
+mkdocstrings-python = "^1.10.0"
+pygments = "^2.17.2"
+mkdocs-material = "^9.5.18"
+pymdown-extensions = "^10.8"
+mkdocs-bootstrap386 = "^0.0.2"
 
 
 [build-system]
@@ -25,6 +31,7 @@ profile = "blue"
 known_third_party = []
 
 [tool.taskipy.tasks]
+run = "python app/main.py"
 test = "pytest -v"
-lint = "flake8 src/ tests/"
 format = "blue . && isort ."
+kill = "kill -9 $(lsof -t -i :8000)"

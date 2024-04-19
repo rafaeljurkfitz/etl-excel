@@ -1,0 +1,20 @@
+site_name: ETL for Excel
+theme:
+  name: material
+  palette:
+    primary: green
+  language: en
+
+repo_name: "rafaeljurkfitz/etl-excel"
+repo_url: "https://github.com/rafaeljurkfitz/etl-excel"
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+      - name: mermaid
+        class: mermaid
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
