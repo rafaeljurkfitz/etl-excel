@@ -18,7 +18,7 @@ repos:
       - id: isort
         args:
           - "--profile"
-          - "blue"
+          - "black"
         exclude: "^docs/.*$"
 
   - repo: https://github.com/PyCQA/pydocstyle
@@ -33,5 +33,5 @@ repos:
         entry: pip-audit
         args: []
         language: system
-        pass_filenames: false
+        pass_filenames: True
         types: [python] # Opcional: se você quiser que isso seja executado apenas quando arquivos Python forem alterados.
