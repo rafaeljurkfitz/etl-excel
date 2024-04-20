@@ -6,6 +6,8 @@
 
 This repository is for studying and serving as a portfolio. The goal here is to have a standardized foundation and structure for starting engineering, science, and data analysis projects. The main focus is on best practices, automation, testing and documentation.
 
+This project is inspired by the teachings of Luciano Filho, whose GitHub profile can be found [here](https://github.com/lvgalvao). He provided the project foundation, invaluable insights in his classes and his contributions to my career within the data area have been fundamental in shaping my development.
+
 ### Project objectives
 
 * **Understand the standard project structure**: This includes organizing directories, such as source code, tests, documentation, among others.
