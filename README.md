@@ -2,7 +2,7 @@
 
 ![Fluxo](docs/static/fluxo.png)
 
-## Sobre o Projeto
+## About the project
 
 This repository is for studying and serving as a portfolio. The goal here is to have a standardized foundation and structure for starting engineering, science, and data analysis projects. The main focus is on best practices, automation, testing and documentation.
 
@@ -28,7 +28,7 @@ This repository is for studying and serving as a portfolio. The goal here is to 
 
 ```bash
 git clone https://github.com/rafaeljurkfitz/etl-excel.git
-cd dataprojectstarterkit
+cd etl-excel
 ```
 
 2. Configure the correct Python version with `pyenv`::
@@ -71,7 +71,7 @@ task run
 
 8. Check the ```data/output``` folder to see if the file was generated correctly.
 
-## Contato
+## Contact
 
 For questions, suggestions or feedback:
 
