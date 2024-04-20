@@ -1,3 +1,5 @@
+"""module with all the transformation necessary to consolidate the opening data."""
+
 import os
 
 import pandas as pd
@@ -6,16 +8,15 @@ import pandas as pd
 def load_excel(
     data_frame: pd.DataFrame, output_path: str, file_name: str
 ) -> None:
+    """Receive a dataframe and save as excel.
 
-    """
-    Receive a dataframe and save as excel
+    Args:
+        data_frame (pd.DataFrame): dataframe to be save as excel
+        output_path (str): path where the file will be saved
+        file_name (str): name of folder to be saved
 
-    args:
-    data_frame (pd.DataFrame): dataframe to be save as excel
-    output_path (str): path where the file will be saved
-    file_name (str): name of folder to be saved
-
-    return: None
+    Returns:
+        None:
     """
     if not os.path.exists(output_path):
         os.makedirs(output_path)
