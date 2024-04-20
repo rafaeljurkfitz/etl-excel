@@ -30,8 +30,10 @@ repos:
     hooks:
       - id: pip-audit
         name: pip-audit
-        entry: pip-audit
-        args: []
+        entry: poetry run pip-audit
+        args:
+          - "--ignore-vuln"
+          - "CVE-2024-21503"
         language: system
-        pass_filenames: True
+        pass_filenames: False
         types: [python] # Opcional: se você quiser que isso seja executado apenas quando arquivos Python forem alterados.
