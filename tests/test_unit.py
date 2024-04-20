@@ -1,6 +1,7 @@
 """Tests for unit functionalities."""
 
 import os
+import subprocess
 
 import pandas as pd
 import pytest
@@ -72,10 +73,19 @@ def test_load_no_permission(tmpdir):
     """Test the load functionality with a protected output folder."""
     # Supondo que a pasta não tenha permissões de gravação
     protected_folder = tmpdir.mkdir('protected_folder')
-    os.chmod(str(protected_folder), 0o444)  # Somente permissões de leitura
-
+    if os.name == 'posix':
+        os.chmod(str(protected_folder), 0o444)  # Somente permissões de leitura
+    elif os.name == 'nt':  # Windows
+        # Comandos específicos do Windows para definir permissões somente leitura
+        # Aqui você pode usar o método que mencionei anteriormente ou qualquer outro método que funcione para você
+        # Exemplo:
+        subprocess.run(
+            ['icacls', str(protected_folder), '/deny', 'Todos:(OI)(CI)(F)']
+        )
+        pass
     df = pd.DataFrame({'A': [1], 'B': ['a']})
     with pytest.raises(PermissionError):
+        print(str(protected_folder))
         load_excel(df, str(protected_folder), 'test.xlsx')
 
 
