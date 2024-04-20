@@ -26,48 +26,48 @@ This repository is for studying and serving as a portfolio. The goal here is to 
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/rafaeljurkfitz/etl-excel.git
-cd etl-excel
-```
+    ```bash
+    git clone https://github.com/rafaeljurkfitz/etl-excel.git
+    cd etl-excel
+    ```
 
 2. Configure the correct Python version with `pyenv`::
 
-```bash
-pyenv install 3.12.1
-pyenv local 3.12.1
-```
+    ```bash
+    pyenv install 3.12.1
+    pyenv local 3.12.1
+    ```
 
 3. Configure poetry for Python version 3.12.1 and activate the virtual environment:
 
-```bash
-poetry env use 3.12.1
-poetry shell
-```
+    ```bash
+    poetry env use 3.12.1
+    poetry shell
+    ```
 
 4. Install the project dependencies:
 
-```bash
-poetry install
-```
+    ```bash
+    poetry install
+    ```
 
 5. Run the tests to ensure everything is working as expected:
 
-```bash
-task test
-```
+    ```bash
+    task test
+    ```
 
 6. Run the command to view the project documentation:
 
-```bash
-task doc
-```
+    ```bash
+    task doc
+    ```
 
 7. Run the pipeline execution command to perform the ETL:
 
-```bash
-task run
-```
+    ```bash
+    task run
+    ```
 
 8. Check the ```data/output``` folder to see if the file was generated correctly.
 

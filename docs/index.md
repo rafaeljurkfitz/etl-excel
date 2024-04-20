@@ -22,6 +22,7 @@ The objective of this project is to demonstrate how refactoring techniques can b
 ## Installation Guide
 
 Here, you will find detailed instructions on how to install and configure the project in your local environment. Following the instructions correctly ensures that you have a smooth experience when working on the project.
+
 ## FAQ
 
 This section provides answers to frequently asked questions. If you have any questions that are not covered here, please feel free to get in touch.
