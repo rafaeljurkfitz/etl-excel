@@ -1,5 +1,6 @@
 """module with all the transformation necessary to consolidate the opening data."""
 
+import errno
 import os
 
 import pandas as pd
@@ -18,8 +19,20 @@ def load_excel(
     Returns:
         None:
     """
+    if not isinstance(data_frame, pd.DataFrame):
+        raise TypeError('`data_frame` must be a pandas DataFrame.')
+    if not file_name:
+        raise ValueError('`file_name` cannot be empty.')
     if not os.path.exists(output_path):
         os.makedirs(output_path)
-
-    data_frame.to_excel(f'{output_path}/{file_name}.xlsx', index=False)
-    print('File saved successfully!')
+    try:
+        data_frame.to_excel(os.path.join(output_path, file_name), index=False)
+        print('File saved successfully!')
+    except PermissionError as e:
+        raise PermissionError(
+            errno.EACCES, f'Permission denied: {output_path}'
+        ) from e
+    except Exception as e:
+        raise RuntimeError(
+            f'Failed to save DataFrame as Excel file: {e}'
+        ) from e
