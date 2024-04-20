@@ -6,7 +6,7 @@ import subprocess
 import pandas as pd
 import pytest
 
-from app.pipeline import concat_data_frames, extract_from_excel, load_excel
+from app.ETL import concat_data_frames, extract_from_excel, load_excel
 
 # from app.pipeline.transform import concat_data_frames
 

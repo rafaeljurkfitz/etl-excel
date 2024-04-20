@@ -1,12 +1,15 @@
 """main project pipeline."""
 
-from pipeline.extract import extract_from_excel
-from pipeline.load import load_excel
-from pipeline.transform import concat_data_frames
+from ETL import pipeline_completa
+
+
+def consolidate_files():
+    """Consolidates the gerated Excel files into a single file."""
+    input_folder = 'data/input'
+    output_folder = 'data/output'
+    output_file_name = 'consolidated_absenteeism_data.xlsx'
+    pipeline_completa(input_folder, output_folder, output_file_name)
+
 
 if __name__ == '__main__':
-    data_frame_list = extract_from_excel('data/input')
-    print(type(data_frame_list))
-    data_frame = concat_data_frames(data_frame_list)
-    print(type(data_frame))
-    load_excel(data_frame, 'data/output', 'output')
+    consolidate_files()
