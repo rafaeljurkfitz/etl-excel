@@ -1,7 +1,5 @@
 """Test integration"""
-
 import os
-import shutil
 import tempfile
 
 import pandas as pd
