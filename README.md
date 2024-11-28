@@ -79,4 +79,4 @@ Para questões, sugestões ou feedbacks:
 
 * **Luciano Filho** - [lvgalvaofilho@gmail.com](mailto:lvgalvaofilho@gmail.com)
 
-* **Rafael Jurkfitz** - [rafaeljurkfitz@hotmail.com](mailto:rafaeljurkfitz@hotmail.com)
+* **Rafael Jurkfitz** - [rjurkfitz@gmail.com](mailto:rjurkfitz@gmail.com)
