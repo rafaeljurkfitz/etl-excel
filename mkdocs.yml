@@ -1,9 +1,9 @@
-site_name: ETL for Excel
+site_name: ETL para Excel
 theme:
   name: material
   palette:
     primary: green
-  language: en
+  language: br
 
 repo_name: "rafaeljurkfitz/etl-excel"
 repo_url: "https://github.com/rafaeljurkfitz/etl-excel"
