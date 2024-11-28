@@ -2,79 +2,81 @@
 
 ![Fluxo](docs/static/fluxo.png)
 
-## About the project
+## Sobre o Projeto
 
-This repository is for studying and serving as a portfolio. The goal here is to have a standardized foundation and structure for starting engineering, science, and data analysis projects. The main focus is on best practices, automation, testing and documentation.
+Esse repositório tem como objetivo o estudo e servir como portfolio. O intuito aqui é fornecer uma base e uma estrutura padronizada para iniciar projetos de engenharia, ciência e análise de dados. O foco principal é em boas práticas, automação, testes e documentação.
 
-This project is inspired by the teachings of Luciano Filho, whose GitHub profile can be found [here](https://github.com/lvgalvao). He provided the project foundation, invaluable insights in his classes and his contributions to my career within the data area have been fundamental in shaping my development.
+Este projeto é inspirado nos ensinamentos de Luciano Filho, cujo perfil no GitHub pode ser encontrado [aqui](https://github.com/lvgalvao). Ele forneceu a base do projeto, insights valiosos em suas aulas e suas contribuições para minha carreira na área de dados foram fundamentais para moldar minha base na área.
 
-### Project objectives
+### Objetivos do Projeto
 
-* **Understand the standard project structure**: This includes organizing directories, such as source code, tests, documentation, among others.
+* **Entender a estrutura padrão de projetos**: Isso inclui a organização de diretórios, como o código-fonte, testes, documentação, entre outros.
 
-* **Standard structures in data projects**: We will refactor the project using classes, modules and best practices in an ETL.
+* **Estruturas padrões em projetos de dados**: Vamos refatorar o projeto utilizando classes, módulos e boas práticas em uma ETL.
 
-* **Become familiar with development tools**: We will cover the use of virtual environments and discuss tools such as PIP, CONDA and POETRY.
+* **Familiarizar-se com ferramentas de desenvolvimento**: Abordaremos o uso de ambientes virtuais e discutiremos ferramentas como PIP, CONDA e POETRY.
 
-* **Tests with Pytest**: Ensure your code works as expected by creating unit and integration tests.
+* **Testes com Pytest**: Garanta que seu código funcione como esperado, criando testes unitários e de integração.
 
-* **Versioning with Git and GitHub**: Learn how to version your project and use GitHub for collaboration and publishing.
+* **Versionamento com Git e GitHub**: Aprenda a versionar seu projeto e a usar o GitHub para colaboração e publicação.
 
-* **Documentation with MKDocs**: You will learn how to document your project with MKDocs and publish your documentation on [GitHub Pages](rafaeljurkfitz.github.io/etl-excel/)
+* **Documentação com MKDocs**: Você vai aprender a documentar seu projeto com MKDocs e a publicar sua documentação no [GitHub Pages](rafaeljurkfitz.github.io/etl-excel/)
 
-* **Automation and CI/CD**: Configure integration and continuous delivery routines to maintain project quality.
+* **Automatização e CI/CD**: Configurar rotinas de integração e entrega contínua para manter a qualidade do projeto.
 
-### Installation and Configuration
+### Instalação e Configuração
 
-1. Clone the repository:
+1. Clone o repositório:
 
     ```bash
     git clone https://github.com/rafaeljurkfitz/etl-excel.git
     cd etl-excel
     ```
 
-2. Configure the correct Python version with `pyenv`::
+2. Configure a versão correta do Python no `pyenv`::
 
     ```bash
-    pyenv install 3.12.1
-    pyenv local 3.12.1
+    pyenv install 3.12.0
+    pyenv local 3.12.0
     ```
 
-3. Configure poetry for Python version 3.12.1 and activate the virtual environment:
+3. Configure o poetry para o Python versão 3.12.0 e ative o ambiente virtual:
 
     ```bash
-    poetry env use 3.12.1
+    poetry env use 3.12.0
     poetry shell
     ```
 
-4. Install the project dependencies:
+4. Instale as dependêcias do projeto:
 
     ```bash
     poetry install
     ```
 
-5. Run the tests to ensure everything is working as expected:
+5. Rode os testes para verificar que tudo está correto e funcionando:
 
     ```bash
     task test
     ```
 
-6. Run the command to view the project documentation:
+6. Rode o comando para ver a documentação do projeto:
 
     ```bash
     task doc
     ```
 
-7. Run the pipeline execution command to perform the ETL:
+7. Inicie a execução da pipeline utilizando o comando para iniciar a ETL:
 
     ```bash
     task run
     ```
 
-8. Check the ```data/output``` folder to see if the file was generated correctly.
+8. Cheque o caminho da pasta ```data/output``` para ver se o arquivo que foi gerado está correto.
 
-## Contact
+## Contato
 
-For questions, suggestions or feedback:
+Para questões, sugestões ou feedbacks:
+
+* **Luciano Filho** - [lvgalvaofilho@gmail.com](mailto:lvgalvaofilho@gmail.com)
 
 * **Rafael Jurkfitz** - [rafaeljurkfitz@hotmail.com](mailto:rafaeljurkfitz@hotmail.com)
