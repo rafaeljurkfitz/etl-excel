@@ -1,4 +1,4 @@
-"""This module contains functions for the ETL process."""
+"""Esse módulo init contem todas as funções do ETL."""
 
 from .extract import extract_from_excel
 from .load import load_excel

@@ -1,10 +1,10 @@
-"""main project pipeline."""
+"""Arquivo main do projeto."""
 
 from ETL import pipeline_completa
 
 
 def consolidate_files():
-    """Consolidates the gerated Excel files into a single file."""
+    """Função que consolida os arquivos Excel de input em um único arquivo de output."""
     input_folder = 'data/input'
     output_folder = 'data/output'
     output_file_name = 'consolidated_absenteeism_data.xlsx'

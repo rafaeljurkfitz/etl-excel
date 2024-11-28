@@ -1,4 +1,4 @@
-"""module with all the transformations necessary to consolidate the opening data."""
+"""Modulo com todas as funções de transformação de dados."""
 
 from typing import List
 
@@ -6,13 +6,13 @@ import pandas as pd
 
 
 def concat_data_frames(data_frame_list: List[pd.DataFrame]) -> pd.DataFrame:
-    """Transform a list of dataframes in only one dataframe.
+    """Concatena uma lista de dataframes em um único dataframe.
 
     Args:
-        data_frame_list (List[pd.DataFrame]): list of dataframes
+        data_frame_list (List[pd.DataFrame]): Lista de dataframes
 
     Returns:
-        pd.DataFrame: one dataframe
+        pd.DataFrame: Um dataframe
     """
     if not data_frame_list:
         raise ValueError('No data to transform')

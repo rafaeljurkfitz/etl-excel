@@ -1,4 +1,4 @@
-"""module with all the transformation necessary to consolidate the opening data."""
+"""Modulo com todas as funções de carregamento de dados."""
 
 import errno
 import os
@@ -9,12 +9,12 @@ import pandas as pd
 def load_excel(
     data_frame: pd.DataFrame, output_path: str, file_name: str
 ) -> None:
-    """Receive a dataframe and save as excel.
+    """Recebe um dataframe e o salva como um arquivo Excel.
 
     Args:
-        data_frame (pd.DataFrame): dataframe to be save as excel
-        output_path (str): path where the file will be saved
-        file_name (str): name of folder to be saved
+        data_frame (pd.DataFrame): dataframe a ser salvo
+        output_path (str): caminho onde o arquivo será salvo
+        file_name (str): nome do arquivo
 
     Returns:
         None:

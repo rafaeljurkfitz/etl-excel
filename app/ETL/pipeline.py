@@ -1,4 +1,4 @@
-"""This module contains functions for the ETL process."""
+"""Esse módulo contém a função pipeline_completa que executa o processo ETL completo."""
 
 from .extract import extract_from_excel
 from .load import load_excel
@@ -7,7 +7,7 @@ from .transform import concat_data_frames
 
 def pipeline_completa(input_folder, output_folder, output_file_name):
     """
-    Função ETL: Extract, Transform and load data from Excel files.
+    Função ETL: extrai, transforma e carrega dados de arquivos Excel.
 
     type: input_folder: strs
     """
