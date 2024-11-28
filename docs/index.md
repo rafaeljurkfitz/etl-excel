@@ -1,32 +1,32 @@
-# Project ETL-Excel
+# Projeto ETL-Excel
 
 ![Fluxo](static/fluxo.png)
 
-This is a project aiming to study an example dedicated to demonstrating refactoring practices. In this space, you will find an in-depth description of ETL, installation instructions, answers to frequently asked questions, and more. Whether you are a collaborator or simply someone interested in the project, we hope you find this documentation useful.
+Este é um projeto que visa estudar um exemplo dedicado a demonstrar práticas de refatoração. Neste espaço você encontrará uma descrição detalhada do ETL, instruções de instalação, respostas às perguntas mais frequentes e muito mais. Seja você um colaborador ou simplesmente alguém interessado no projeto, esperamos que esta documentação seja útil.
 
-Additionally, this documentation can be integrated into Confluence or an internal intranet, facilitating access and collaboration for all team members.
+Além disso, esta documentação pode ser integrada ao ```Confluence``` ou a uma ```intranet interna```, facilitando o acesso e a colaboração de todos os membros da equipe.
 
-## Sections
+## Sessões
 
-- [Project ETL-Excel](#project-etl-excel)
-  - [Sections](#sections)
-  - [Introduction](#introduction)
-  - [Installation Guide](#installation-guide)
+- [Projeto ETL-Excel](#projeto-etl-excel)
+  - [Sessões](#sessões)
+  - [Introdução](#introdução)
+  - [Guia de Instalação](#guia-de-instalação)
   - [FAQ](#faq)
-  - [Contact](#contact)
+  - [Contato](#contato)
 
-## Introduction
+## Introdução
 
-The objective of this project is to demonstrate how refactoring techniques can be applied to improve code quality, optimize performance and make software more maintainable. Refactoring is essential for keeping code clean and understandable, allowing teams to maintain high development velocity over time.
+O objetivo desse projeto é demonstrar que técnicas de refatoramento podem ser aplicadas em um projeto simples, melhorando a qualidade do código, otimizando desempenho e construindo software de forma mais sustentável. O ato de refatorar é essencial para manter o código limpo e compreensível, permitindo que as equipes mantenham alta velocidade de desenvolvimento ao longo do tempo.
 
-## Installation Guide
+## Guia de Instalação
 
-Here, you will find detailed instructions on how to install and configure the project in your local environment. Following the instructions correctly ensures that you have a smooth experience when working on the project.
+Aqui você encontra instruções detalhadas de como instalar e configurar o projeto no seu ambiente local. Seguindo as instruções corretamente, garante que você tenha uma experiência tranquila trabalhando no projeto.
 
 ## FAQ
 
-This section provides answers to frequently asked questions. If you have any questions that are not covered here, please feel free to get in touch.
+Essa sessão disponibiliza respostas para perguntas frequentes referentes ao projeto. Se você possui qualquer dúvida que não foi contemplada aqui, sinta-se à vontade para entrar em contato.
 
-## Contact
+## Contato
 
-For any questions, feedback or support related to the project, you can contact us directly via email: [lvgalvaofilho@gmail.com](mailto:lvgalvaofilho@gmail.com). He will always be willing to help!
+Para qualquer questão, feedback ou mensagem de suporte relacionada ao projeto, você pode entrar em contato direto via email: [rjurkfitz@gmail.com](mailto:rjurkfitz@gmail.com).

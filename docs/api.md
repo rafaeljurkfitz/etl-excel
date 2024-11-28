@@ -1,6 +1,6 @@
-# API Documentation
+# API Documentação
 
-Below you will find details about the functions and modules of our project.
+Abaixo você irá encontrar todos os detalhaes sobre as funcões e ódulos do projeto.
 
 ## Módulo `consolidador`
 
