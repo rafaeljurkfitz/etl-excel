@@ -1,4 +1,4 @@
-"""Test integration"""
+"""Testes de integração"""
 import os
 import tempfile
 
@@ -9,11 +9,11 @@ from app.ETL import pipeline_completa
 
 def test_integration():
     """
-    Integration test to check the full consolidate_excels functionality.
+    Teste de integração para verificar a funcionalidade completa de consolidate_excels.
 
-    This test simulates a real-world scenario by creating a temporary directory
-    with a sample Excel file. The test then checks if the consolidation function
-    works as expected.
+    Esse teste simula um cenário do mundo real criando um diretório temporário
+    com um arquivo Excel de exemplo. O teste então verifica se a função de consolidação
+    funciona conforme o esperado.
     """
     # Criar uma pasta temporária para simular o ambiente real
     with tempfile.TemporaryDirectory() as tmpdirname:

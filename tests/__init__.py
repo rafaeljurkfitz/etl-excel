@@ -1,1 +1,1 @@
-"""modules of unit testing and integration for the consolidator."""
+"""Module for tests."""
