@@ -4,25 +4,70 @@
 
 ## Sobre o Projeto
 
-Esse repositório tem como objetivo o estudo e servir como portfolio. O intuito aqui é fornecer uma base e uma estrutura padronizada para iniciar projetos de engenharia, ciência e análise de dados. O foco principal é em boas práticas, automação, testes e documentação.
+Esse repositório tem como objetivo servir como portfolio. O intuito aqui é demonstrar beneficio de boas praticas de desenvolvimento de software na área de dados e uma estrutura padronizada para iniciar projetos de engenharia, ciência e análise de dados.
 
-Este projeto é inspirado nos ensinamentos de Luciano Filho, cujo perfil no GitHub pode ser encontrado [aqui](https://github.com/lvgalvao). Ele forneceu a base do projeto, insights valiosos em suas aulas e suas contribuições para minha carreira na área de dados foram fundamentais para moldar minha base na área.
+**O foco principal é em boas práticas, automação, testes e documentação.**
 
-### Objetivos do Projeto
+### Requisitos
 
-* **Entender a estrutura padrão de projetos**: Isso inclui a organização de diretórios, como o código-fonte, testes, documentação, entre outros.
+Existem duas coisas que devem ser feitas antes de qualquer projeto Python:
 
-* **Estruturas padrões em projetos de dados**: Vamos refatorar o projeto utilizando classes, módulos e boas práticas em uma ETL.
+- Controle de versionamento do Python.
 
-* **Familiarizar-se com ferramentas de desenvolvimento**: Abordaremos o uso de ambientes virtuais e discutiremos ferramentas como PIP, CONDA e POETRY.
+- Gerenciamento de pacotes e ambientes virtuais;
 
-* **Testes com Pytest**: Garanta que seu código funcione como esperado, criando testes unitários e de integração.
+#### Pyenv
 
-* **Versionamento com Git e GitHub**: Aprenda a versionar seu projeto e a usar o GitHub para colaboração e publicação.
+O ```Pyenv``` permite gerenciar **múltiplas versões do Python no mesmo sistema**, garantindo que você possa usar a versão correta para cada projeto.
 
-* **Documentação com MKDocs**: Você vai aprender a documentar seu projeto com MKDocs e a publicar sua documentação no [GitHub Pages](rafaeljurkfitz.github.io/etl-excel/)
+#### Poetry
 
-* **Automatização e CI/CD**: Configurar rotinas de integração e entrega contínua para manter a qualidade do projeto.
+O ```Poetry``` é uma ferramenta que gerencia **dependências**, **ambientes virtuais** e empacotamento de projetos Python.
+
+**Principais vantagens do Poetry:**
+
+- Gerenciamento centralizado no arquivo ```pyproject.toml```.
+- Criação automática de ambientes virtuais isolados.
+- Fluxo de instalação simplificado.
+
+**O Poetry utiliza automaticamente a versão do Python configurada no projeto localmente via Pyenv. Para garantir que as ferramentas funcionem juntas.**
+
+### Dependências
+
+#### Dependências do Projeto
+
+Essas são as dependências essenciais para a execução do projeto. Elas incluem as bibliotecas necessárias para manipular e processar os arquivos Excel.
+
+- ```pandas```: Biblioteca para análise e manipulação de dados.
+- ```openpyxl```: Biblioteca para ler e escrever arquivos Excel.
+
+#### Dependencias de Desenvolvimento
+
+Essas dependências são necessárias durante o desenvolvimento do projeto, como ferramentas para formatação de código, linting, e automação de tarefas.
+
+- ```taskipy```: Para a automação de tarefas como execução de scripts e testes.
+- ```pre-commit```: Para configurar hooks de pré-commit para garantir que o código esteja em conformidade com as convenções do projeto.
+- ```pip-audit```: Para auditar dependências e verificar vulnerabilidades.
+- ```pydocstyle```: Para checar o estilo de documentação do código.
+- ```blue```: Ferramenta para formatação de código no estilo Black.
+- ```isort```: Para ordenar as importações de forma consistente.
+
+#### Dependencias de Teste
+
+Essas dependências são necessárias para rodar os testes do projeto, como o framework de testes e seus plugins.
+
+- ```pytest```: Framework para escrita e execução de testes automatizados.
+
+#### Dependencias de Documentação
+
+Essas dependências são usadas para gerar e servir a documentação do projeto. Elas incluem ferramentas para a construção de sites de documentação e a geração de conteúdo dinâmico.
+
+- ```mkdocstrings-python```: Para renderizar docstrings Python na documentação gerada pelo MkDocs.
+- ```pygments```: Para colorir e formatar o código na documentação.
+- ```pymdown-extensions```: Extensões para o MkDocs, permitindo o uso de Markdown avançado.
+- ```mkdocs-bootstrap386```: Tema Bootstrap para o MkDocs.
+- ```mkdocs-material```: Tema Material para o MkDocs.
+- ```mkdocs```: Ferramenta para criar sites de documentação com Markdown.
 
 ### Instalação e Configuração
 
@@ -77,6 +122,8 @@ Este projeto é inspirado nos ensinamentos de Luciano Filho, cujo perfil no GitH
 
 Para questões, sugestões ou feedbacks:
 
-* **Luciano Filho** - [lvgalvaofilho@gmail.com](mailto:lvgalvaofilho@gmail.com)
+- **Rafael Jurkfitz** - [rjurkfitz@gmail.com](mailto:rjurkfitz@gmail.com)
 
-* **Rafael Jurkfitz** - [rjurkfitz@gmail.com](mailto:rjurkfitz@gmail.com)
+## Licença
+
+Este projeto está licenciado sob a MIT License.
