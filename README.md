@@ -2,13 +2,13 @@
 
 ![Fluxo](docs/static/fluxo.png)
 
-## Sobre o Projeto
+## Sobre o Projeto 🗃️
 
 Esse repositório tem como objetivo servir como portfolio. O intuito aqui é demonstrar beneficio de boas praticas de desenvolvimento de software na área de dados e uma estrutura padronizada para iniciar projetos de engenharia, ciência e análise de dados.
 
 **O foco principal é em boas práticas, automação, testes e documentação.**
 
-### Requisitos
+### Requisitos 🚧
 
 Existem duas coisas que devem ser feitas antes de qualquer projeto Python:
 
@@ -16,11 +16,11 @@ Existem duas coisas que devem ser feitas antes de qualquer projeto Python:
 
 - Gerenciamento de pacotes e ambientes virtuais;
 
-#### Pyenv
+#### Pyenv 🔖
 
 O ```Pyenv``` permite gerenciar **múltiplas versões do Python no mesmo sistema**, garantindo que você possa usar a versão correta para cada projeto.
 
-#### Poetry
+#### Poetry 📦
 
 O ```Poetry``` é uma ferramenta que gerencia **dependências**, **ambientes virtuais** e empacotamento de projetos Python.
 
@@ -32,16 +32,16 @@ O ```Poetry``` é uma ferramenta que gerencia **dependências**, **ambientes vir
 
 **O Poetry utiliza automaticamente a versão do Python configurada no projeto localmente via Pyenv. Para garantir que as ferramentas funcionem juntas.**
 
-### Dependências
+### Dependências ➕
 
-#### Dependências do Projeto
+#### Dependências do Projeto 🔧
 
 Essas são as dependências essenciais para a execução do projeto. Elas incluem as bibliotecas necessárias para manipular e processar os arquivos Excel.
 
 - ```pandas```: Biblioteca para análise e manipulação de dados.
 - ```openpyxl```: Biblioteca para ler e escrever arquivos Excel.
 
-#### Dependencias de Desenvolvimento
+#### Dependencias de Desenvolvimento 💻
 
 Essas dependências são necessárias durante o desenvolvimento do projeto, como ferramentas para formatação de código, linting, e automação de tarefas.
 
@@ -52,13 +52,13 @@ Essas dependências são necessárias durante o desenvolvimento do projeto, como
 - ```blue```: Ferramenta para formatação de código no estilo Black.
 - ```isort```: Para ordenar as importações de forma consistente.
 
-#### Dependencias de Teste
+#### Dependencias de Teste 🧪
 
 Essas dependências são necessárias para rodar os testes do projeto, como o framework de testes e seus plugins.
 
 - ```pytest```: Framework para escrita e execução de testes automatizados.
 
-#### Dependencias de Documentação
+#### Dependencias de Documentação 📚
 
 Essas dependências são usadas para gerar e servir a documentação do projeto. Elas incluem ferramentas para a construção de sites de documentação e a geração de conteúdo dinâmico.
 
