@@ -4,6 +4,7 @@ import errno
 import os
 
 import pandas as pd
+from loguru import logger
 
 
 def load_excel(
