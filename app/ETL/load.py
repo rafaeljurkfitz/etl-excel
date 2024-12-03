@@ -27,7 +27,7 @@ def load_excel(
         os.makedirs(output_path)
     try:
         data_frame.to_excel(os.path.join(output_path, file_name), index=False)
-        print('File saved successfully!')
+        logger.debug('File saved successfully!')
     except PermissionError as e:
         raise PermissionError(
             errno.EACCES, f'Permission denied: {output_path}'

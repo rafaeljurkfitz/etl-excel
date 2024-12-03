@@ -1,6 +1,7 @@
 """main project pipeline."""
 
 from ETL import pipeline_completa
+from loguru import logger
 
 
 def consolidate_files():
@@ -8,6 +9,7 @@ def consolidate_files():
     input_folder = 'data/input'
     output_folder = 'data/output'
     output_file_name = 'consolidated_absenteeism_data.xlsx'
+    logger.add('./logs/file_{time}.log', rotation='10 MB')
     pipeline_completa(input_folder, output_folder, output_file_name)
 
 
