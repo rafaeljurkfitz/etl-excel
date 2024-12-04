@@ -50,6 +50,7 @@ These dependencies are needed during project development, such as tools for code
 - ```pydocstyle```: To check code documentation style.
 - ```blue```: Code formatter similar to Black.
 - ```isort```: For consistently organizing imports.
+- ```loguro```: For logging.
 
 #### Testing Dependencies 🧪
 
